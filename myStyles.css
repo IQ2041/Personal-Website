@@ -3,6 +3,8 @@ amaranth-purple: #af1b3f; teal: #2CAFC9; cerulean: #316f83; vista-blue: #8390fa;
 timberwolf: #dad3d2; sage: #CAC391; Charcoal: #3D5467; rich-black: #131b23;*/
 body{
     background-color: #131B23;
+    background-image: url('./Assets/carousel/JI305795.jpg');
+    background-size: cover;
     color: #DBD4D3;
 }
 .navbar_base{
@@ -32,14 +34,6 @@ body{
     color: #2CAFC9;
     font-size: 20px;
 }
-
-#title{
-    color: #2CAFC9;
-    font-size: 25px;
-    border: none;
-    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
-}
-
 .social_media_items{
     font-size: 16px;
     text-decoration: none;
@@ -58,7 +52,7 @@ body{
     width: 100%;
     height: 50%;
 }
-
+/* 
 .Title_card{
     background-color: #131B23;
     color: #2CAFC9;
@@ -72,7 +66,7 @@ body{
     margin: auto;
     font-size: 20px;
     font-family: Copperplate, "Copperplate Gothic Light", fantasy;
-}
+} */
 .Info_card{
     background-color: #131B23;
     color: #DBD4D3;
@@ -96,28 +90,6 @@ body{
     flex-direction: column;
     align-items: left;
 }
-input[type="text"], textarea {
-  background-color : #DAD3D2; 
-}
-
-@media screen and (min-width: 601px) {
-    #navbar_home{
-        margin-left: 5%;
-    }
-    #navbar_right{
-        margin-left: auto;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    #navbar_home{
-        margin-left: 5%;
-    }
-    #navbar_right{
-        margin-left: auto;
-    }
-}
-
 .Info_card{
     border: 2px solid #2CAFC9;
     border-radius: 15px;
