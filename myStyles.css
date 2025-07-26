@@ -3,6 +3,8 @@ amaranth-purple: #af1b3f; teal: #2CAFC9; cerulean: #316f83; vista-blue: #8390fa;
 timberwolf: #dad3d2; sage: #CAC391; Charcoal: #3D5467; rich-black: #131b23;*/
 body{
     background-color: #131B23;
+    background-image: url('./Assets/carousel/JI305795.jpg');
+    background-size: cover;
     color: #DBD4D3;
 }
 .navbar_base{
@@ -32,12 +34,13 @@ body{
     color: #2CAFC9;
     font-size: 20px;
 }
-
-#title{
-    color: #2CAFC9;
-    font-size: 25px;
-    border: none;
-    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+.social_media_items{
+    font-size: 16px;
+    text-decoration: none;
+    border: #2CAFC9 2px solid;
+    border-radius: 15px;
+    color: #DBD4D3;
+    margin-left: auto;
 }
 
 .Base_card{
@@ -49,7 +52,7 @@ body{
     width: 100%;
     height: 50%;
 }
-
+/* 
 .Title_card{
     background-color: #131B23;
     color: #2CAFC9;
@@ -63,7 +66,7 @@ body{
     margin: auto;
     font-size: 20px;
     font-family: Copperplate, "Copperplate Gothic Light", fantasy;
-}
+} */
 .Info_card{
     background-color: #131B23;
     color: #DBD4D3;
@@ -75,53 +78,21 @@ body{
 .social_media_items{
     font-size: 25px;
 }
-
-input[type="text"], textarea {
-  background-color : #DAD3D2; 
+.Contact_form{
+    background-color: #131B23;
+    color: #CAC391;
+    border: #2CAFC9 2px solid;
+    width: 50%;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
 }
-
-@media screen and (min-width: 601px) {
-    #navbar_home{
-        margin-left: 5%;
-    }
-    #navbar_right{
-        margin-left: auto;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    #navbar_home{
-        margin-left: 5%;
-    }
-    #navbar_right{
-        margin-left: auto;
-    }
-}
-
 .Info_card{
     border: 2px solid #2CAFC9;
     border-radius: 15px;
     padding: 5px;
     margin: 5px;
-}
-#mode-toggle{
-    margin-left: auto;
-    padding: 5px 10px;
-    background-color: #FDFFB8;
-    color:#0e3768;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: bold;
-}
-
-
-.light-mode{
-    background-color:white;
-    color: black;
-}
-
-.dark-mode {
-    background-color: #131B23;
-    color: #FDFFB8;
 }
