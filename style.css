@@ -26,7 +26,7 @@ body{
     border: #2CAFC9 2px solid;
     border-radius: 15px;
     padding: 5px 10px;
-    color: #DBD4D3;
+    color: #CAC391;
 }
 .navbar_items_right{
     margin-left: auto;
@@ -67,18 +67,6 @@ body{
 .social_media_items{
     font-size: 25px;
 }
-.Contact_form{
-    background-color: #131B23;
-    color: #CAC391;
-    border: #2CAFC9 2px solid;
-    width: 50%;
-    border-radius: 15px;
-    padding: 10px;
-    margin: 5px;
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-}
 .Info_card{
     border: 2px solid #2CAFC9;
     border-radius: 15px;
@@ -98,7 +86,7 @@ body{
 
 .light-mode {
     background-color: #131B23;
-    color: #DBD4D3;
+    color: black;
 }
 body.light-mode {
     background: white;
@@ -106,11 +94,11 @@ body.light-mode {
 }
 
 body.light-mode nav {
-    background: rgba(255, 255, 255, 0.9);
-}
-
-body.light-mode .nav_items {
+    background: white;
     color: black;
+}
+body.light-mode .navbar_items{
+    color: #131B23;
 }
 
 body.light-mode #mode-toggle {
