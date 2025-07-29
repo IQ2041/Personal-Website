@@ -28,6 +28,9 @@ body{
     padding: 5px 10px;
     color: #DBD4D3;
 }
+.navbar_items_right{
+    margin-left: auto;
+}
 .navbar_items:hover{
     background-color: #3D5467;
     border: #CAC391 2px solid;
@@ -52,21 +55,7 @@ body{
     width: 100%;
     height: 50%;
 }
-/* 
-.Title_card{
-    background-color: #131B23;
-    color: #2CAFC9;
-    text-align: center;
-}
-.Title_card > h1{
-    margin: 10px 30px;
-    font-size: 20px;
-}
-.Title_card > h2{
-    margin: auto;
-    font-size: 20px;
-    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
-} */
+
 .Info_card{
     background-color: #131B23;
     color: #DBD4D3;
@@ -93,6 +82,38 @@ body{
 .Info_card{
     border: 2px solid #2CAFC9;
     border-radius: 15px;
+    width: fit-content;
     padding: 5px;
     margin: 5px;
+}
+
+#mode-toggle {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.light-mode {
+    background-color: #131B23;
+    color: #DBD4D3;
+}
+body.light-mode {
+    background: white;
+    color: black;
+}
+
+body.light-mode nav {
+    background: rgba(255, 255, 255, 0.9);
+}
+
+body.light-mode .nav_items {
+    color: black;
+}
+
+body.light-mode #mode-toggle {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: black;
 }
