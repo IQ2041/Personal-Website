@@ -3,7 +3,6 @@ amaranth-purple: #af1b3f; teal: #2CAFC9; cerulean: #316f83; vista-blue: #8390fa;
 timberwolf: #dad3d2; sage: #CAC391; Charcoal: #3D5467; rich-black: #131b23;*/
 body {
     background-color: #131B23;
-    background-image: url('./Assets/carousel/JI305795.jpg');
     background-size: cover;
     color: #DBD4D3;
     width: 100vw;
@@ -115,7 +114,7 @@ body {
 }
 .p_items:hover{
     text-decoration: underline;
-    font-size: 30px;
+    font-size: 110%;
 }
 
 /* light mode */
