@@ -12,6 +12,11 @@
 </head>
 
 <body>
+    <style>
+        body {
+            background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(0, 0, 0, 1));
+        }
+    </style>
     <nav class="navbar_base">
         <a href="./index.html" class="navbar_items">Home</a>
         <a href="./projects.html" class="navbar_items" disable>Projects</a>
@@ -19,20 +24,38 @@
         <a href="./about.html#Contact" class="navbar_items">Contact</a>
         <button class="navbar_items_right" id="mode-toggle">Light/Dark</button>
     </nav>
-    <main >
-        <div style="display: flex; width: fit-content; height: fit-content;">
-            <iframe src="https://iqquizapp.netlify.app" width="80%" height="500px"></iframe>
-            <div class="Info_card" style="width:auto;">
-                <h1>CS 355 Project 2: Quiz Website</h1>
-                <h2>This was a project developed with <a href="">Reol</a> and <a href="">Saul</a>, links of websites below</h2>
-            </div>
-        </div>    
-        <div>
-            <iframe src="" frameborder="0">Laufey</iframe>
-            <img src="./Assets/Vinyl Record.png" alt="...">
-            <iframe src="https://www.youtube.com/watch?v=evny_w98PjI&list=RDevny_w98PjI&start_radio=1&pp=ygUSYXJpIGFiZHVsIGJhYnlkb2xsoAcB" frameborder="0">Ari Abdul</iframe>
+
+    <div class="row">
+        <div class="column-66">
+            <h1>CS 355 Project 2: Quiz Website</h1>
+            <h2>This was a project developed with Reol and Saul to create a quiz website that can be used to take
+                quizzes.</h2>
+            <h2>The website can be found at <a href="https://iqquizapp.netlify.app"
+                    target="_blank">https://iqquizapp.netlify.app</a></h2>
         </div>
-    </main>
+        <div class="column-33">
+            <iframe src="https://iqquizapp.netlify.app" id="quiz-frame"></iframe>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column-66">
+            <h1>More Projects to come</h1>
+            <h1>My Github Repository: <a href="https://github.com/IQ2041" target="_blank">IQ2041</a>
+            </h1>
+
+        </div>
+        <div class="column-33">
+            ...
+        </div>
+    </div>
+    <div class="row">
+        <div class="column-33">
+
+        </div>
+        <div class="column-66">
+
+        </div>
+    </div>
 </body>
 <script src="./script.js"></script>
 
